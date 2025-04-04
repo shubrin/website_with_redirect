@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나정책지원센터</title>
+    <!-- favicon -->
+    <link href="./img/favicon-16x16.png" rel="shortcut icon">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- js swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+    <!-- scrolltrigger -->
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/EasePack.min.js'></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script> -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap pc">
+        <section class="s1">
+            <header>
+                <div id="header" class="deactive">
+                    <div class="header-logo">
+                        <a href="./index.html">
+                            <div class="logo">
+                                <img src="./img/logo1.png" alt="logo" class="img-logo">
+                                <!-- <img src="./img/logo2.png" alt="logo" class="txt-logo"> -->
+                            </div> <!-- logo -->
+                            <h1>하나정책지원센터</h1>
+                        </a>
+                    </div>
+                    <nav class="header-menu">
+                        <ul class="flex">
+                            <li>
+                                <a href="./introduce.html">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="./policyFund.html">정책자금</a>
+                            </li>
+                            <li>
+                                <a href="#">세금환급 사례</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="top-menu">
+                        <li>
+                            <a href="./apply.html" class="text-pop-link">
+                                <span class="text-pop text1">상</span>
+                                <span class="text-pop text2">담</span>
+                                <span class="text-pop text3">신</span>
+                                <span class="text-pop text4">청</span>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </header>
+            <div class="txt-area">
+                <h3>2025 소상공인 정책자금 지원사업</h3>
+                <h1>하나정책지원센터</h1>
+                <div class="more-btn">
+                    <a href="./apply.html">
+                        <div class="more">
+                            <span></span>
+                            <p>상담 신청</p>
+                        </div>
+                        <div class="arrow">
+                            <img src="./imo/211621_c_right_arrow_icon.svg" alt="arrow">
+                        </div>
+                    </a>
+                </div> <!-- morebtn -->
+            </div>
+            <video src="./img/230248.mp4" muted autoplay loop></video>
+            <div class="gradien"></div>
+        </section> <!-- s1 -->
+        <section class="s2">
+            <div class="center-box">
+                <h1>📢 소상공인 정책자금 <b>신청</b> 및 <b>접수</b></h1>
+                <h3>소상공인 여러분의 사업 성장, 저희가 함께합니다.<br>정책자금 신청이 시작되었으니, 지금 바로 접수하여 운영에 필요한 자금을 지원받으세요!</h3>
+                <div class="possible-btn">
+                    <button type="button" onclick="location.href='./apply.html'"><span>지금 바로 가능금액 확인하기</span></button>
+                </div>
+                <div class="slide-box">
+                    <div class="swiper swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-img">
+                                    <div class="img-area img-area1">
+                                        <div class="post-title">
+                                            <h2>👍 일반소상공인 지원</h2>
+                                        </div>
+                                        <div class="hover">
+                                            <p> · 직원 수 5인 미만(제조업 10인 미만) 업체 대상<br>
+                                                · 일반소상공인자금(중 신용자 750점이상 포함) 대출<br>
+                                                · 자금: 7천만원<br>
+                                                · 상환 방법: 2년 거치 3년 상환<br>
+                                                · 금리: 3.4% (변동 금리)<br>
+                                                · 대출방법: 신용보증서 및 담보 제공 후 은행을 통한 대리대출<br></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-img">
+                                    <div class="img-area img-area2">
+                                        <div class="post-title">
+                                            <h2>✌ 저신용 점포 특별지원</h2>
+                                        </div>
+                                        <div class="hover">
+                                            <p> · 직원 수 5인 미만(제조업 10인 미만) 업체 대상<br>
+                                                · 저 신용자 / 중 신용자 특별 지원 대출<br>
+                                                · 자금: 3천만원<br>
+                                                · 상환 방법: 2년 거치 3년 상환<br>
+                                                · 금리: 4.4% (변동 금리)<br>
+                                                · 대출방법: 신용(보증서, 담보없어도 됨) - 국가에서 직접지급<br></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-img">
+                                    <div class="img-area img-area3">
+                                        <div class="post-title">
+                                            <h2>👌 혁신성장 촉진 자금</h2>
+                                        </div>
+                                        <div class="hover">
+                                            <p> · 혁신성장 플랫폼 사용 점포 우대 정책지원<br>
+                                                · 직원 수 5인 미만(제조업 10인 미만) 업체 대상<br>                      
+                                                · 운전자금 1억/ 시설자금 5억까지 지원 대출<br>                       
+                                                · 상환 방법: 2년거치 3년 상환/ 3년거치 5년 상환 (시설 자금)<br>                         
+                                                · 금리:3.2% (변동 금리)<br>                          
+                                                · 대출방법: 운전(신용, 보증서 필요없음), 시설(담보) 국가직접자금<br>                            
+                                                · 특전: 중저신용자도 신청 가능<br></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-img">
+                                    <div class="img-area img-area4">
+                                        <div class="post-title">
+                                            <h2>✋ 특별경영안정자금</h2>
+                                        </div>
+                                        <div class="hover">
+                                            <p> · 청년자금: 대표자청년(39세이하), 50%이상 청년고용<br>  
+                                                · 장애인기업자금: 대표자 장애인인 경우<br>                         
+                                                · 운전자금: 청년 7천, 장애인자금 1억까지 지원<br>                           
+                                                · 상환 방법: 청년 2년거치 3년 상환/ 장애인 2년거치 5년 상환<br>                           
+                                                · 대출방법: 운전(보증서 필요 있음) => 은행을 통한 대리대출<br>                             
+                                                · 특전: 중저신용자도 신청 가능<br></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                        </div> <!-- swiper-wrapper -->
+                    </div><!-- swiper -->
+                </div>
+            </div>
+        </section> <!-- s2 -->
+        <section class="st">
+            <div class="text-ani3">
+                <div class="inner">
+                    <div class="track track">
+                        <p class="text"><a href="#">한국인터넷진흥원&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">한국에너지공단&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">한국교통연구원&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">국가평생교육진흥원&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">언론중재위원회&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">여신금융협회&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">국가과학기술연구회&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">한국데이터산업진흥원&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">한국외국어대학교&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">숭실대학교&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">김포대학교&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">충북대학교&nbsp;&nbsp;</a></p>    
+                    </div>
+                </div> <!-- inner -->
+            </div> <!-- text-ani3 -->
+        </section> <!-- st -->
+        <section class="s3">
+            <div class="center-box">
+                <h2 style="color: #005aa2; font-weight:bold;">⏰ 2025년 상반기</h2>
+                <h2>소상공인 정책자금 지원사업</h2>
+                <div class="flex">
+                    <div class="mega-sale">
+                        <div class="swiper swiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-img">
+                                        <img src="./img/backup img0.jpg" alt="s3슬라이드">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3 style="margin-top: 20px; font-weight: bold;">소상공인 정책자금 4월 중순 접수예정</h3>
+                                    </div>
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-img">
+                                        <img src="./img/backup img3.jpg" alt="s3슬라이드">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3 style="margin-top: 20px; font-weight: bold;">2025 소상공인 정책자금 지원사업</h3>
+                                    </div>
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-img">
+                                        <img src="./img/backup img1.jpg" alt="s3슬라이드">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3 style="margin-top: 20px; font-weight: bold;">일반소상공인 지원</h3>
+                                    </div>
+                                </div><!--swiper-slide-->
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-img">
+                                        <img src="./img/backup img2.jpg.png" alt="s3슬라이드">
+                                    </div>
+                                    <div class="text-area">
+                                        <h3 style="margin-top: 20px; font-weight: bold;">특별경영안정자금</h3>
+                                    </div>
+                                </div><!--swiper-slide-->
+                            </div><!--swiper-wrapper-->
+                        </div><!--swiper4-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div><!--maga-sale-->
+                    <div class="notice" style="border:1px solid #999; border-radius:10px; margin-bottom: 20px;">
+                        <h3 style="margin-top: 10px; text-align:center; color:#005aa2; font-weight:bold;">📺️ 정책자금 최신뉴스</h3>
+                        <div class="notice-box flex2">
+                            <table class="table" style="margin-top: 15px; margin-bottom: 15px;">
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 1</a>
+                                            <span style="font-weight: normal;">2024.12.12</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 2</a>
+                                            <span  style="font-weight: normal;">2024.12.12</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 3</a>
+                                            <span  style="font-weight: normal;">2024.12.12</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 4</a>
+                                            <span  style="font-weight: normal;">2024.07.26</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 5</a>
+                                            <span  style="font-weight: normal;">2024.07.26</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 6</a>
+                                            <span  style="font-weight: normal;">2024.07.26</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b class="flex">
+                                            <a href="#">news 7</a>
+                                            <span  style="font-weight: normal;">2024.07.26</span>
+                                        </b>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div><!--notice-box-->
+                    </div><!-- notice -->
+                </div><!--flex-->
+            </div>
+        </section><!--s3-->
+        <section class="s4">
+            <div class="swiper mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="banner-container">
+                            <h1 style="font-size: 60px; text-shadow: 3px 4px 5px #005aa2;">
+                                2025년 상반기<br>
+                                소상공인 정책자금 지원사업
+                            </h1>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/s3 img1.jpg" alt="banner">
+                        </div>
+                    </div> <!-- swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="banner-container flex2">
+                            <h1>
+                                일반소상공인 지원
+                            </h1>
+                            <table>
+                                <tr class="flex2">
+                                    <td>
+                                        <a href="#"><P>소상공인</P></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><P>상시근로자 5인 미만 업체</P></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><P>제조업, 건설업, 운수업, 광역 운영시 상시근로자가 10인 미만인 업체</P></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/s3 img2.jpg" alt="banner">
+                        </div>
+                    </div> <!-- swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="banner-container flex2">
+                            <h1>
+                                저신용 점포 특별지원
+                            </h1>
+                            <table>
+                                <tr class="flex2">
+                                    <td>
+                                        <a href="#"><P>신용불량자</P></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><P>세금체납기업</P></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><P>휴, 폐업중인 기업</P></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/s3 img3.jpg" alt="banner">
+                        </div>
+                    </div> <!-- swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="banner-container flex2">
+                            <h1>
+                                혁신성장 촉진자금
+                            </h1>
+                            <table>
+                                <tr class="flex2">
+                                    <td>
+                                        <a href="#"><P>키오스크/테이블오더 사용점포</P></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><P>배달의민족/요기요 등 플랫폼 사용점포</P></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/s3 img3.jpg" alt="banner">
+                        </div>
+                    </div> <!-- swiper-slide -->
+                    <div class="swiper-slide">
+                        <div class="banner-container flex2">
+                            <h1>
+                                특별경영안정자금
+                            </h1>
+                            <table>
+                                <tr class="flex2">
+                                    <td>
+                                        <a href="#"><P>청년, 장애인 지원자금</P></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="banner-img">
+                            <img src="./img/s3 img5.jpg" alt="banner">
+                        </div>
+                    </div> <!-- swiper-slide -->
+                </div> <!-- swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-progress-bar">
+                    <span class="progress-bar-ani">
+                    </span>
+                </div>
+            </div> <!-- swiper mainSwipe -->
+        </section> <!-- s4 -->
+        
+        <section class="s6">
+            <div class="successful">
+                <div class="center-box">
+                    <h1>🎉 자금승인 성공 사례</h1>
+                    <h3>하나정책지원센터의 성공적인 자금승인 <br>사례를 소개합니다!</h3>
+                </div>
+                <div class="slide-box">
+                    <div class="swiper swiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="successful-box">
+                                    <img src="./img/s6 img1.jpg" alt="s6이미지">
+                                    <div class="successful-txt">
+                                        <div class="successful-title">
+                                            <h2>고용지원금</h2>
+                                        </div>
+                                        <div class="successful-con">
+                                            <h3>· 환급사례 2023년</h3>
+                                            <div class="successful-money">
+                                                <h4>(주)유ㅇ시네마 : 6천 3백만원</h4>
+                                                <h4>ㅇ드림요양병원 : 2천 7백만원</h4>
+                                                <p>* 이외에도 다수</p>
+                                            </div>
+                                            <div class="success-possibility">
+                                                <h4>· 환급 가능성이 높은 기업</h4>
+                                                <p>
+                                                    · 청년/신중년/고령자 신규채용 계획 있는 기업<br>
+                                                    · 유아휴직자 있었거나 생길 예정 기업<br>
+                                                    · 정년연장기업<br>
+                                                    · 고령자 계속기업<br>                                 
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="successful-box">
+                                    <img src="./img/s6 img1.jpg" alt="s6이미지">
+                                    <div class="successful-txt">
+                                        <div class="successful-title">
+                                            <h2>4대 보험 환급</h2>
+                                        </div>
+                                        <div class="successful-con">
+                                            <h3>· 환급사례 2023년</h3>
+                                            <div class="successful-money">
+                                                <h4>|주|대ㅇ엔지니어링 : 3천만원</h4>
+                                                <h4>(주)삼ㅇ소방공사 : 4천 2백만원</h4>
+                                                <p>* 이외에도 다수</p>
+                                            </div>
+                                            <div class="success-possibility">
+                                                <h4>· 환급 가능성이 높은 기업</h4>
+                                                <p>
+                                                    · 대부분 하도급공사를 수행 기업<br>
+                                                    · 건설업과 제조업 병행 기업<br>
+                                                    · 건설업 연관업종으로 산재보험료율이 높은 기업<br>
+                                                    · 과거 공단의 보험료조사를 받지 않은 기업<br>                                 
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="successful-box">
+                                    <img src="./img/s6 img1.jpg" alt="s6이미지">
+                                    <div class="successful-txt">
+                                        <div class="successful-title">
+                                            <h2>정책자금 등</h2>
+                                        </div>
+                                        <div class="successful-con">
+                                            <h3>· 환급사례 2023년</h3>
+                                            <div class="successful-money">
+                                                <h4>디ㅇ이푸드 : 12억원</h4>
+                                                <h4>AㅇT : 140억원</h4>
+                                                <p>* 이외에도 다수</p>
+                                            </div>
+                                            <div class="success-possibility">
+                                                <h4>· 정책자금 지원 가능성이 높은 기업</h4>
+                                                <p>
+                                                    · 하남산단, 진곡산단, 평동산단 입주 기업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 운전자금 필요기업 <br>
+                                                    · 4% 이상의 고금리를 쓰고 있는 기업<br>
+                                                    · 매출액이 10% 이상 감소하는 기업<br>
+                                                    · 신규공장/공장증설/신규기계 설치 예정기업<br>
+                                                                                                                         
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="successful-box">
+                                    <img src="./img/s6 img1.jpg" alt="s6이미지">
+                                    <div class="successful-txt">
+                                        <div class="successful-title">
+                                            <h2>학술연구</h2>
+                                        </div>
+                                        <div class="successful-con">
+                                            <h3>· 학술연구사례</h3>
+                                            <div class="successful-money">
+                                                <h4>광주경제진흥상생일자리재단</h4>
+                                                <h4>전라남도의회</h4>
+                                                <p>* 기타 실적보유</p>
+                                            </div>
+                                            <div class="success-possibility">
+                                                <h4>· 연구 및 사업계획 분야</h4>
+                                                <p>
+                                                    · 신규 사업 추진 관공서<br>
+                                                    · 신규사업 추진기업<br>
+                                                    · 각종 연구를 하고자 하는 관공서, 기업<br>
+                                                    · IR : 코스닥 상장 예정기업<br>                                 
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <div class="successful-box">
+                                    <img src="./img/s6 img1.jpg" alt="s6이미지">
+                                    <div class="successful-txt">
+                                        <div class="successful-title">
+                                            <h2>기업부설연구소</h2>
+                                        </div>
+                                        <div class="successful-con">
+                                            <h3>· 지원사례</h3>
+                                            <div class="successful-money">
+                                                <h4>법성포참맛</h4>
+                                                <h4>기아풀리&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|주|에스디레이저</h4>
+                                                <p>* 이외에도 다수</p>
+                                            </div>
+                                            <div class="success-possibility">
+                                                <h4>· 기어부설연구소 혜택</h4>
+                                                <p>
+                                                    · 연구인력 인건비의 25% 세액감면<br><br>
+                                                    · 최조한세율 적용받지 않고 세액감면<br>
+                                                </p>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div> <!-- swiper-slide -->
+                        </div> <!-- swiper-wrapper -->
+                    </div> <!-- swiper3 -->
+                </div> <!-- slide-box -->
+            </div>
+        </section>
+        <section class="st">
+            <div class="text-ani3">
+                <div class="inner">
+                    <div class="track track">
+                        <p class="text"><a href="#">한국쓰리엠&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">쉰들러엘리베이터&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">구찌코리아&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">발렌시아가&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">알렉산더맥퀸코리아&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">보테가베네타&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">입생로랑코리아&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">케어링코리아&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">한성자동차&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">시몬스&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">콘에어코리아&nbsp;&nbsp;</a></p>
+                        <p class="text"><a href="#">CNN&nbsp;&nbsp;</a></p>    
+                    </div>
+                </div> <!-- inner -->
+            </div> <!-- text-ani3 -->
+        </section> <!-- st -->
+        <section class="s7">
+            <div class="center-box">
+                <h1>하나정책지원센터 지원서비스</h1>
+                <div class="hana-service">
+                    <div class="serve">
+                        <div class="serve-img">
+                            <img src="./img/s7 img1.jpg" alt="s7이미지">
+                            <h3>세금환급</h3>
+                        </div>
+                        <div class="hover">
+                            <a href="#">
+                                <h3>세금환급</h3>
+                                <p>과거 5년분 국세환급 조회시간 약 10분!</p>
+                            </a>
+                        </div><!--hover-->
+                    </div><!--shop-->
+                    <div class="serve">
+                        <div class="serve-img">
+                            <img src="./img/s7 img2.jpg" alt="s5이미지">
+                            <h3>급여 아웃소싱</h3>
+                        </div>
+                        <div class="hover">
+                            <a href="#">
+                                <h3>급여 아웃소싱</h3>
+                                <p>쉽고 편리한 급여생성<br>주 52시간 근로시간제 관리</p>
+                            </a>
+                        </div><!--hover-->
+                    </div><!--shop-->
+                    <div class="serve">
+                        <div class="serve-img">
+                            <img src="./img/s7 img3.jpg" alt="s5이미지">
+                            <h3>소상공인 정책자금 조달</h3>
+                        </div>
+                        <div class="hover">
+                            <a href="#">
+                                <h3>소상공인 정책자금 조달</h3>
+                                <p>투자자금 조달<br>PF자금 조달</p>
+                            </a>
+                        </div><!--hover-->
+                    </div><!--shop-->
+                    <div class="serve">
+                        <div class="serve-img">
+                            <img src="./img/s7 img4.jpg" alt="s5이미지">
+                            <h3>창업공장 설립</h3>
+                        </div>
+                        <div class="hover">
+                            <a href="#">
+                                <h3>창업공장 설립</h3>
+                                <p>공장등록<br>공장설립승인<br>공장설립 정책자금</p>
+                            </a>
+                        </div><!--hover-->
+                    </div><!--shop-->
+                    <div class="serve">
+                        <div class="serve-img">
+                            <img src="./img/s7 img5.jpg" alt="s5이미지">
+                            <h3>일반회사 고용지원금 환급</h3>
+                        </div>
+                        <div class="hover">
+                            <a href="#">
+                                <h3>일반회사 고용지원금 환급</h3>
+                                <p>고용지원금 진단<br>지원금 컨설팅</p>
+                            </a>
+                        </div><!--hover-->
+                    </div><!--shop-->
+                </div><!--home-shopping-->
+            </div>
+        </section>
+        <section class="s8">
+            <div class="center-box">
+                <div class="s8-banner">
+                    <img src="./img/s4 img1.png" alt="s4 banner">
+                </div>
+                <div class="counsel-wrap flex">
+                    <div class="counsel-box-left flex2">
+                        <div class="counsel-box-top counsel-box">
+                            <a href="#">
+                                <h3>소상공인정책자금 신청대상?</h3>
+                            <p> · 직원 수 5인 미만(제조업 10인 미만) 업체 대상<br>
+                                · 일반소상공인자금(중 신용자 750점이상 포함) 대출<br>
+                                · 자금: 7천만원<br>
+                                · 상환 방법: 2년 거치 3년 상환<br>
+                                · 금리: 3.4% (변동 금리)<br>
+                                · 대출방법: 신용보증서 및 담보 제공 후 은행을 통한 대리대출<br></p>
+                            </a>
+                        </div>
+                        <div class="counsel-box-bottom counsel-box">
+                            <a href="#">
+                                <h3>특별경영안정자금 신청대상?</h3>
+                                <p> · 청년자금: 대표자청년(39세이하), 50%이상 청년고용<br>  
+                                    · 장애인기업자금: 대표자 장애인인 경우<br>                         
+                                    · 운전자금: 청년 7천, 장애인자금 1억까지 지원<br>                           
+                                    · 상환 방법: 청년 2년거치 3년 상환/ 장애인 2년거치 5년 상환<br>                           
+                                    · 대출방법: 운전(보증서 필요 있음) => 은행을 통한 대리대출<br>                             
+                                    · 특전: 중저신용자도 신청 가능<br></p>
+                            </a>
+                        </div>
+                        <button class="counsel-box-button" type="button" onclick="location.href='./apply.html'">
+                            <span>상담신청</span>
+                        </button>
+                    </div> <!-- counsel-box-left -->
+                    <div class="counsel-box-right">
+                        <img src="./img/s4 img2.png" alt="img">
+                        <!-- <img src="./img/s4 img2 over.png" alt="img"> -->
+                    </div>
+                </div> <!-- counsel-wrap -->
+            </div>
+        </section> <!-- s5 -->
+        <section class="s9">
+            <div class="center-box">
+                <div class="container flex">
+                    <div class="logo-icon">
+                        <img src="./img/logo2.png" alt="logo2">
+                    </div>
+                    <div class="may-service">
+                        <h3>하나정책지원센터의 맞춤 컨설팅</h3>
+                        <p>항상 최고의 서비스로 보답하겠습니다.</p>
+                    </div>
+                    <a href="./apply.html">무료 상담신청 +</a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="info">
+                <div class="center-box flex">
+                    <div class="info-box">
+                        <ul class="flex">
+                            <li>
+                                <a href="#">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="#">자금승인 성공 사례</a>
+                            </li>
+                            <li>
+                                <a href="#">상담문의</a>
+                            </li>
+                        </ul>
+                    </div> <!-- info-box -->
+                    <div class="family">
+                        <a href="#" class="flex">
+                            <p>패밀리 사이트</p>
+                            <span><img src="./imo2/down_arrow_icon.svg" alt="화살표"></span>
+                        </a>
+                        <div class="family-list">
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                        </div> <!-- family-list -->
+                    </div> <!-- family -->
+                </div> <!-- center-box -->
+            </div> <!-- info -->
+            <div class="addr">
+                <div class="center-box flex">
+                    <address>
+                        (주)하나정책지원센터 | 대표이사 서셩열 | 사업자등록번호 408-81-84635 | 상담문의 1551-1347 <br>
+            
+                        중소기업상담회사 등록번호 2010-399 | 팩스 062-571-8583 | 주소 광주광역시 북구 첨단연신로 88, 1315호(연제동, 허드슨1041)
+                        <br><br><br>
+                    </address>
+                    <div class="sns">
+                        <ul class="flex">
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-facebook.svg" alt="페북">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-instagram.svg" alt="인스타">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-youtube.svg" alt="유튜브">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright ⓒ . All rights reserved.
+                </div>
+            </div>
+            <div class="top-btn">
+                <div class="top-btn-wrap">
+                    <img src="./imo/3671668_arrow_thin_up_icon.svg" alt="uparrow">
+                </div>
+            </div>
+        </footer>
+    </div> <!-- wrap -->  
+</body>
+<!-- index.html (공통 진입점) -->
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- favicon -->
+    <link href="./img/favicon-16x16.png" rel="shortcut icon">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- js swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+    <!-- scrolltrigger -->
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/EasePack.min.js'></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script> -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div id="header" class="deactive">
+                <div class="header-logo">
+                    <a href="./index.html">
+                        <div class="logo">
+                            <img src="./img/logo1.png" alt="logo" class="img-logo">
+                            <!-- <img src="./img/logo2.png" alt="logo" class="txt-logo"> -->
+                        </div> <!-- logo -->
+                        <h1>하나정책지원센터</h1>
+                    </a>
+                </div>
+                <nav class="header-menu">
+                    <ul class="flex">
+                        <li>
+                            <a href="./introduce.html">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="./policyFund.html">정책자금</a>
+                        </li>
+                        <li>
+                            <a href="#">세금환급 사례</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="top-menu">
+                    <li>
+                        <a href="./apply.html" class="text-pop-link">
+                            <span class="text-pop text1">상</span>
+                            <span class="text-pop text2">담</span>
+                            <span class="text-pop text3">신</span>
+                            <span class="text-pop text4">청</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </header>
+        <section class="int1">
+            <div class="introduce-hello">
+                <div class="hello">
+                    <h3>Apply Support</h3>
+                    <h1>상담신청서 작성</h1>
+                </div>
+                <div class="hello-img">
+                    <img src="./img/s3 img2.jpg" alt="intro1">
+                </div>
+            </div>
+        </section>
+        <section class="apply">
+            <div class="center-box">
+                <div class="apply-box flex">
+                    <div class="apply-left">
+                        <div class="check-box">
+                            <h3>공지사항 *</h3>
+                            <div class="check-box-header">
+                                <input type="checkbox" name="apply" value="selectall" onclick="selectAll(this)"/>
+                                <h2>아래 내용을 확인하고 정책자금 상담신청서를 작성합니다.</h2>
+                            </div>
+                            
+
+                        </div>  
+                    </div>
+                    <div class="apply-right">
+                        <h1>정책자금 신청서</h1>
+                        <p>
+                            하나정책지원센터는 정부에서 중소기업에게 지원하는 모든 종류의 정책자금을<br>
+                            연구분석하여 가장 합리적인 정책자금으로 지원될 수 있도록 컨설팅하여 드립니다.<br><br>
+
+                            상담 신청을 하시는 과정에서는 신용점수에 아무런 영향이 없음을 안내드립니다.
+                        </p>
+                        <div class="apply-tell">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="info">
+                <div class="center-box flex">
+                    <div class="info-box">
+                        <ul class="flex">
+                            <li>
+                                <a href="#">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="#">자금승인 성공 사례</a>
+                            </li>
+                            <li>
+                                <a href="#">상담문의</a>
+                            </li>
+                        </ul>
+                    </div> <!-- info-box -->
+                    <div class="family">
+                        <a href="#" class="flex">
+                            <p>패밀리 사이트</p>
+                            <span><img src="./imo2/down_arrow_icon.svg" alt="화살표"></span>
+                        </a>
+                        <div class="family-list">
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                            <a href="#">family-list</a>
+                        </div> <!-- family-list -->
+                    </div> <!-- family -->
+                </div> <!-- center-box -->
+            </div> <!-- info -->
+            <div class="addr">
+                <div class="center-box flex">
+                    <address>
+                        (주)하나정책지원센터 | 대표이사 서셩열 | 사업자등록번호 408-81-84635 | 상담문의 1551-1347 <br>
+            
+                        중소기업상담회사 등록번호 2010-399 | 팩스 062-571-8583 | 주소 광주광역시 북구 첨단연신로 88, 1315호(연제동, 허드슨1041)
+                        <br><br><br>
+                    </address>
+                    <div class="sns">
+                        <ul class="flex">
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-facebook.svg" alt="페북">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-instagram.svg" alt="인스타">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imo2/icon-youtube.svg" alt="유튜브">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright ⓒ . All rights reserved.
+                </div>
+            </div>
+            <div class="top-btn">
+                <div class="top-btn-wrap">
+                    <img src="./imo/3671668_arrow_thin_up_icon.svg" alt="uparrow">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
